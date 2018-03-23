@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "cancan/inherited_resource"
+require "cancan/inherited_resources"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

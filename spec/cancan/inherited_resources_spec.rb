@@ -1,6 +1,6 @@
-RSpec.describe Cancan::InheritedResource do
+RSpec.describe Cancan::InheritedResources do
   it "has a version number" do
-    expect(Cancan::InheritedResource::VERSION).not_to be nil
+    expect(Cancan::InheritedResources::VERSION).not_to be nil
   end
 
   it "does something useful" do

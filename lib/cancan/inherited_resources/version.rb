@@ -1,5 +1,5 @@
 module Cancan
-  module InheritedResource
+  module InheritedResources
     VERSION = "0.1.0"
   end
 end

@@ -1,22 +1,22 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "cancan/inherited_resource/version"
+require "cancan/inherited_resources/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "cancan-inherited_resource"
-  spec.version       = Cancan::InheritedResource::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.name          = "cancan-inherited_resources"
+  spec.version       = Cancan::InheritedResources::VERSION
+  spec.authors       = ["Tyler Rick"]
   spec.email         = ["tyler@tylerrick.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Allow cancan to work with inherited_resources }
+  spec.description   = %q{Because https://github.com/CanCanCommunity/cancancan/pull/370}
+  spec.homepage      = "https://github.com/TylerRick/cancan-inherited_resources"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
